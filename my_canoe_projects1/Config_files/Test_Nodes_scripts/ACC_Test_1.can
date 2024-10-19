@@ -1,0 +1,36 @@
+/*@!Encoding:ASCII*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+void MainTest()
+{
+ testModuleTitle("vehile speed test");
+ testModuleDescription("To test the vehicle speed");
+ testGroupBegin("vehicle speed functional test","Functional Test"); 
+  Testcase_1();
+ testGroupEnd(); 
+}
+testcase Testcase_1(void)
+{
+  setLogFileName("S:\\my_canoe_projects\\Config_files\\Logs\\vehicle_speed_test.asc");
+  startLogging();
+  testCaseTitle("TC_01","To test the vehicle speed in various speed");
+  setSignal(BCM_Info::VehicleSpeed,0); //     
+  testWaitForTimeout(5000);
+  testValidateSignalMatch("Check vehicle speed is 0",BCM_Info::VehicleSpeed,0);
+  
+  setSignal(BCM_Info::VehicleSpeed,120); //     
+  testWaitForTimeout(5000);
+  testValidateSignalMatch("Check vehicle speed is 120",BCM_Info::VehicleSpeed,120);
+  
+  setSignal(BCM_Info::VehicleSpeed,250); //     
+  testWaitForTimeout(5000);
+  testValidateSignalMatch("Check vehicle speed is 0",BCM_Info::VehicleSpeed,250);
+  stopLogging();
+}

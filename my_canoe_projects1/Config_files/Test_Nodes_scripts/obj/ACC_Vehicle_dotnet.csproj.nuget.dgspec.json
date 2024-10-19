@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "S:\\my_canoe_projects\\Config_files\\Test_Nodes_scripts\\ACC_Vehicle_dotnet.csproj": {}
+  },
+  "projects": {
+    "S:\\my_canoe_projects\\Config_files\\Test_Nodes_scripts\\ACC_Vehicle_dotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\my_canoe_projects\\Config_files\\Test_Nodes_scripts\\ACC_Vehicle_dotnet.csproj",
+        "projectName": "ACC_Vehicle_dotnet",
+        "projectPath": "S:\\my_canoe_projects\\Config_files\\Test_Nodes_scripts\\ACC_Vehicle_dotnet.csproj",
+        "packagesPath": "C:\\Users\\shyam\\.nuget\\packages\\",
+        "outputPath": "S:\\my_canoe_projects\\Config_files\\Test_Nodes_scripts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shyam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net47"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net47": {
+            "targetAlias": "net47",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net47": {
+          "targetAlias": "net47",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

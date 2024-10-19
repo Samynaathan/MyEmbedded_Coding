@@ -1,0 +1,223 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+<Configuration Condition=" '$(Configuration)' == '' ">CANoe_Debug</Configuration>
+<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<ProductVersion>8.0.50727</ProductVersion>
+<ProjectGuid>{77F992AB-409F-4893-AEF6-ECAECA8FE5F1}</ProjectGuid>
+<OutputType>Library</OutputType>
+<AppDesignerFolder>Properties</AppDesignerFolder>
+<AssemblyName>ACC_Vehicle_test_library</AssemblyName>
+<TargetFramework>net47</TargetFramework>
+<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+<Configurations>CANoe_Debug;CANoe_Release</Configurations>
+<EnableDefaultItems>false</EnableDefaultItems>
+<VectorAppInstallDir>$(CANoe_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoe</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoe_Debug|AnyCPU' ">
+<DebugSymbols>true</DebugSymbols>
+<DebugType>full</DebugType>
+<Optimize>false</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>DEBUG;TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoe_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoe</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoe_Release|AnyCPU' ">
+<DebugType>pdbonly</DebugType>
+<Optimize>true</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoe_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoe</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoe4SW_Debug|AnyCPU' ">
+<DebugSymbols>true</DebugSymbols>
+<DebugType>full</DebugType>
+<Optimize>false</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>DEBUG;TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoe4SW_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoe4SW</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoe4SW_Release|AnyCPU' ">
+<DebugType>pdbonly</DebugType>
+<Optimize>true</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoe4SW_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoe4SW</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoeLite_Debug|AnyCPU' ">
+<DebugSymbols>true</DebugSymbols>
+<DebugType>full</DebugType>
+<Optimize>false</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>DEBUG;TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoeLite_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoeLite</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoeLite_Release|AnyCPU' ">
+<DebugType>pdbonly</DebugType>
+<Optimize>true</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoeLite_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoeLite</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoe4SWLite_Debug|AnyCPU' ">
+<DebugSymbols>true</DebugSymbols>
+<DebugType>full</DebugType>
+<Optimize>false</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>DEBUG;TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoe4SWLite_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoe4SWLite</VectorAppName>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CANoe4SWLite_Release|AnyCPU' ">
+<DebugType>pdbonly</DebugType>
+<Optimize>true</Optimize>
+<OutputPath>.\</OutputPath>
+<DefineConstants>TRACE</DefineConstants>
+<ErrorReport>prompt</ErrorReport>
+<WarningLevel>4</WarningLevel>
+<LangVersion>7</LangVersion>
+<NoWarn>1701, 1702</NoWarn>
+<VectorAppInstallDir>$(CANoe4SWLite_InstallDir)</VectorAppInstallDir>
+<VectorAppName>CANoe4SWLite</VectorAppName>
+</PropertyGroup>
+<ItemGroup>
+<Reference Include="System, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\System.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.Tools.Internal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\Vector.Tools.Internal.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.Tools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.Tools.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.Runtime.Internal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\Vector.CANoe.Runtime.Internal.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.CANoe.Runtime.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.Sockets.Internal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\Vector.CANoe.Sockets.Internal.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.Sockets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.CANoe.Sockets.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.Threading, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.CANoe.Threading.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.Diagnostics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\Vector.Diagnostics.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.Scripting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.Scripting.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.Scripting.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.Scripting.UI.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.TFS.Internal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\Vector.CANoe.TFS.Internal.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.TFS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.CANoe.TFS.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="Vector.CANoe.VTS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>$(VectorAppInstallDir)NETDev\v40\Vector.CANoe.VTS.dll</HintPath>
+<Private>False</Private>
+</Reference>
+<Reference Include="ACC_Vehicle_Network_V01, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>S:\my_canoe_projects\My_Database\ACC_Vehicle_Network_V01.dll</HintPath>
+<Private>True</Private>
+</Reference>
+<Reference Include="ACC_project_1.cfg_sysvars, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>S:\my_canoe_projects\Config_files\ACC_project_1\ACC_project_1.cfg_sysvars.dll</HintPath>
+<Private>True</Private>
+</Reference>
+<Reference Include="ACC_project_1.cfg_networks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>S:\my_canoe_projects\Config_files\ACC_project_1\ACC_project_1.cfg_networks.dll</HintPath>
+<Private>True</Private>
+</Reference>
+<Reference Include="ACC_Vehicle_test_library_CaplLibraries, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+<SpecificVersion>False</SpecificVersion>
+<HintPath>S:\my_canoe_projects\Config_files\Test_Nodes_scripts\ACC_Vehicle_test_library_CaplLibraries.dll</HintPath>
+<Private>True</Private>
+</Reference>
+</ItemGroup>
+<ItemGroup>
+<Compile Include="ACC_Vehicle_test_library.cs" />
+</ItemGroup>
+<ItemGroup>
+<Folder Include="Properties\" />
+</ItemGroup>
+<PropertyGroup>
+  <PostCompileAdditionalParams>-R:"$(VectorAppInstallDir)NETDev\v40" -R:"$(VectorAppInstallDir)NETDev"</PostCompileAdditionalParams>
+</PropertyGroup>
+<Import Project="$(VectorAppInstallDir)PostCompiler\Vector.PostCompiler.targets" />
+<PropertyGroup>
+<PreBuildEvent>"$(VectorAppInstallDir)Scripts\ReleaseDotNetAssemblies.vbs" "$(SolutionPath)" $(VectorAppName)</PreBuildEvent>
+<PostBuildEvent>"$(VectorAppInstallDir)Scripts\ReloadDotNetAssemblies.vbs" "$(SolutionPath)" $(VectorAppName)</PostBuildEvent>
+</PropertyGroup>
+</Project>

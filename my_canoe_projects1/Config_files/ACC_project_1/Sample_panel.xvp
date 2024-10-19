@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="Sample_panel">
+    <Object Type="Vector.CANalyzer.Panels.Design.MeterControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X8f932442e339be42ffe9239e9d8cf798bcc3" ControlName="Meter 1">
+      <Property Name="Name">X8f932442e339be42ffe9239e9d8cf798bcc3</Property>
+      <Property Name="Size">206, 180</Property>
+      <Property Name="Location">397, 59</Property>
+      <Property Name="SymbolConfiguration"></Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X30d57202e6fa0e4165ea03ae29d4e34e4a6c" ControlName="Check Box 1">
+      <Property Name="Name">X30d57202e6fa0e4165ea03ae29d4e34e4a6c</Property>
+      <Property Name="Size">106, 33</Property>
+      <Property Name="Location">397, 20</Property>
+      <Property Name="Text">Fault_state
+</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="CheckValueVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;RxValue&gt;4&lt;/RxValue&gt;</Property>
+      <Property Name="CheckValueVT">1;Lower;4</Property>
+      <Property Name="CheckValue">4</Property>
+      <Property Name="SymbolConfiguration">8;2;ACC_Vehicle_Network_V01;ACC;ACC_Info;ACC_State;1;CAN;CAN1;-1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.CAPLOutputViewControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X647d65fde3e2de4754eb251e875271fab329" ControlName="CAPL Output View 1">
+      <Property Name="Name">X647d65fde3e2de4754eb251e875271fab329</Property>
+      <Property Name="Size">97, 208</Property>
+      <Property Name="Location">294, 20</Property>
+      <Property Name="BoxBackgroundColor">White</Property>
+      <Property Name="TabIndex">0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X83e836caed366e46c9ea5cde1faeb618a68d" ControlName="Analog Gauge 1">
+      <Property Name="Name">X83e836caed366e46c9ea5cde1faeb618a68d</Property>
+      <Property Name="Size">225, 180</Property>
+      <Property Name="Location">63, 33</Property>
+      <Property Name="ScaleMin">0</Property>
+      <Property Name="ScaleMax">255</Property>
+      <Property Name="LowerRangeLimit">60</Property>
+      <Property Name="UpperRangeLimit">120</Property>
+      <Property Name="ScaleAngle">180</Property>
+      <Property Name="BorderStyle">FixedSingle</Property>
+      <Property Name="BackgroundColor">White</Property>
+      <Property Name="LegendText">Km/hr</Property>
+      <Property Name="LegendTextFont">Microsoft Sans Serif, 8.25pt</Property>
+      <Property Name="MainTicksNumber">25</Property>
+      <Property Name="CurrentPosition">0</Property>
+      <Property Name="LengthMainTicks">17</Property>
+      <Property Name="IsFrame">False</Property>
+      <Property Name="IsMargin">False</Property>
+      <Property Name="ScaleMargin">0</Property>
+      <Property Name="SymbolConfiguration">8;2;ACC_Vehicle_Network_V01;BCM;BCM_Info;VehicelSpeed;1;CAN;CAN1;-1;;;Value;;;0</Property>
+      <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAXFZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTE3LjMuOTEuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBgQAAAA2VmVjdG9yLkNBTmFseXplci5QYW5lbHMuRGVzaWduLkdhdWdlQ3JpdGljYWxQcm9wZXJ0aWVzBgUAAAAyVm9pZCAuY3RvcihEb3VibGUsIERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSkGBgAAAFAuY3RvcihTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlLCBTeXN0ZW0uRG91YmxlKQEAAAAKCw==">
+        <Argument>0</Argument>
+        <Argument>255</Argument>
+        <Argument>0</Argument>
+        <Argument>60</Argument>
+        <Argument>120</Argument>
+      </Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">648, 276</Property>
+    <Property Name="Location">0, 0</Property>
+    <Property Name="BackColor">255, 255, 255, 255</Property>
+  </Object>
+</Panel>

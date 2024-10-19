@@ -1,0 +1,366 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  int vehicle_speed;
+  int ign_state;
+  int handle;
+  byte greetings[11]={'H','e','l','l','o',' ','W','o','r','l','d'};
+  
+  byte session_res[2]={0x50,0x00};
+  byte Nrc_session[3]={0x7F,0x00,0x22};
+  
+  byte Ecu_Reset_positive[2]={0x51,0x00};
+  byte Ecu_Reset_NRC[3]={0x7F,0x00,0x00};
+  
+  byte Security_pos[4]={0x67,0x00,0x00,0x00};
+  byte server_key_gen[2];
+  byte Security_access_NRC[3]={0x7F,0x00,0x00};
+  byte x,y;
+  
+  byte tester_present_res[1]={0x7E};
+  
+  byte Read_data_res[4]={0x62,0x00,0x00,0x00};
+  byte Read_data_res_NRC[3]={0x7F,0x00,0x00};
+  
+  byte Supported_Dtc_buffer[200];
+  byte Read_DTC_res[19]={0x59,0x0,0xFF,0x00,0x20,0x11,0xFF,0x00,0x20,0x12,0xFF,0x00,0x20,0x13,0xFF,0x00,0x20,0x14,0xFF};
+}
+on start
+{
+  handle = CanTpCreateConnection(0); //0 for normal
+      if( handle <= 0)
+      return; // error
+      CanTpSetRxIdentifier( handle, 0x620); //Rx identifier id
+      CanTpSetTxIdentifier( handle, 0x628); //Tx identifier id
+      CanTpSetSTmin( handle, 0x0214); //Stmin time
+      CanTpSetBlockSize( handle, 0); //block size 
+      CanTpSetOneFlowControlValue( handle, 255); //Flow control
+  
+    TalkNM();
+  
+}
+on key 's'
+{
+  CanTpSendData(handle,greetings,elcount(greetings));
+}
+
+on message ICM_Info
+{ 
+  int temp_vspeed; //this is will store the current vehicle speed for setting the Acc speed
+  if(ign_state==2) // it will enter only when ign_on ie value 2
+  {
+    
+  if(getSignal(ICM_Info::CruiseSwitchRequest)==0)  //cruise switch is in off 
+  {
+    setSignal(ACC_Info::ACC_State,0); //Acc is in Acc_off state
+    setSignal(ACC_Info::ACCDriverInfo,0); // send the information to the ICM
+    
+  }  
+  else if(getSignal(ICM_Info::CruiseSwitchRequest)==1) // cruise switch is in ON state
+  {
+    setSignal(ACC_Info::ACC_State,2); //Acc should be in stand by state
+    setSignal(ACC_Info::ACCDriverInfo,2); //send the acc state to ICM
+  }
+  else if(getSignal(ICM_Info::CruiseSwitchRequest)==2 && getSignal(ACC_Info::ACC_State)==2) //switch
+                                          //is in SET/ACCEL and also acc state should be in Stand by mode
+                                          //then only acc turns to acc active state
+  {
+    if((vehicle_speed>=40) && (getSignal(ICM_Info::BrakeSwitch1)==0) && (getSignal(ECM_Info::BrakeSwitch2)==0))
+    {
+     writeProfileInt("ACC_Parameters","Set_Speed",vehicle_speed,"..\\Data\\Acc_parameter.txt");
+    
+      setSignal(ACC_Info::ACC_State,3); //ACC turns to ACC Active state..
+      setSignal(ACC_Info::ACCDriverInfo,3);
+      setSignal(ACC_Info::TargetSpeed,vehicle_speed);
+    }
+  }
+  else if(getSignal(ICM_Info::CruiseSwitchRequest)==3 && getSignal(ACC_Info::ACC_State)==3) //switch
+                                          //is in Coast and also acc state should be in active state mode
+                                          //then acc turns to stand by state
+   {
+    setSignal(ACC_Info::ACC_State,2); //Acc goes to stand by state
+    setSignal(ACC_Info::ACCDriverInfo,2); //send the acc state to ICM
+    $TargetSpeed=0;
+  }
+  else if(getSignal(ICM_Info::CruiseSwitchRequest)==4 && getSignal(ACC_Info::ACC_State)==2) //switch
+                                          //will be in Resume and also acc state should be in standby state mode
+                                          //then acc turns to stand by state
+   {
+      temp_vspeed=getProfileInt("ACC_Parameters","Set_Speed",-1,"..\\Data\\Acc_parameter.txt");//it will read and return the value stored in the memory
+     if(temp_vspeed!=-1)
+      {
+      setSignal(ACC_Info::TargetSpeed,temp_vspeed);
+      setSignal(ACC_Info::ACC_State,3); //Acc goes to Active state
+      setSignal(ACC_Info::ACCDriverInfo,3); //send the acc state to ICM
+     // setSignal(BCM_Info::VehicleSpeed,temp_vspeed);
+      }
+  }
+  else if(getSignal(ICM_Info::CruiseSwitchRequest)==5 && getSignal(ACC_Info::ACC_State)==3)
+  {
+    @sysvar::ACC_SysVar::Time_gap=@sysvar::ACC_SysVar::Time_gap + (double)(0.250/3600);
+  }
+  else if(getSignal(ICM_Info::CruiseSwitchRequest)==6 && getSignal(ACC_Info::ACC_State)==3)
+  {
+    @sysvar::ACC_SysVar::Time_gap=@sysvar::ACC_SysVar::Time_gap - (double)(0.250/3600);
+  }
+  else if(@sysvar::ACC_SysVar::sysvar_manual_brake==1)
+{
+    setSignal(ACC_Info::ACC_State,0); //Acc is in Acc_off state
+    setSignal(ACC_Info::ACCDriverInfo,0); // send the information to the ICM
+}
+  else if(@sysvar::ACC_SysVar::Sysvar_Acc_fault==1)
+{
+    setSignal(ACC_Info::ACC_State,0); //Acc is in Acc_off state
+    setSignal(ACC_Info::ACCDriverInfo,5); // send the information to the ICM
+}
+  
+  if((this.BrakeSwitch1==1)&&(getSignal(ACC_Info::ACC_State)==3)) //if the brake swithch is pressed, also 
+                                  //Acc should be in active sate, it should moves to stand by mode
+  {
+    setSignal(ACC_Info::ACC_State,0x2); //Acc goes to stand by mode, bcoz brake 1 is pressed ...
+    setSignal(ACC_Info::ACCDriverInfo,0x2);
+  }
+
+}
+else if((ign_state==0)||(ign_state==1)) // if the ignition is in off or some other state it will goes to 
+                                        //Acc_off state..
+{
+  setSignal(ACC_Info::ACC_State,0); //Acc is in Acc_off state
+  setSignal(ACC_Info::ACCDriverInfo,0); // send the information to the ICM
+  setSignal(BCM_Info::VehicleSpeed,0);
+}
+
+}
+
+on message ECM_Info
+//Either one of the brake switch is pressed acc shoud goes to stand by mode..
+{
+  if((this.BrakeSwitch2==1)&&(getSignal(ACC_Info::ACC_State)==3)) //here brake 2 is pressed 
+  {
+    setSignal(ACC_Info::ACC_State,2); //Acc goes to stand by mode..
+    
+    setSignal(ACC_Info::ACCDriverInfo,2);// send the ACC info to the ICM module
+  }
+}
+on sysvar ACC_SysVar::sysvar_frwd_vehicle_stat
+{
+  int temp_vspeed;
+  if (@this)
+  {
+    setSignal(ACC_Info::TargetSpeed,(@sysvar::ACC_SysVar::Clearance/@sysvar::ACC_SysVar::Time_gap));
+  }
+  else
+  {
+    temp_vspeed=getProfileInt("ACC_Parameters","Set_Speed",-1,"..\\Data\\Acc_parameter.txt");//it will read and return the value stored in the memory
+     if(temp_vspeed!=-1)
+      {
+      setSignal(ACC_Info::TargetSpeed,temp_vspeed);
+  }
+  }
+}
+on message BCM_Info
+{
+  vehicle_speed=this.VehicleSpeed;
+  if(vehicle_speed > getSignal(ACC_Info::TargetSpeed) && getSignal(ACC_Info::ACC_State)==3)
+  {
+    setSignal(ACC_Info::BrakeDecelRequest,1);
+  }
+  else
+  {
+    setSignal(ACC_Info::BrakeDecelRequest,0);
+  }
+  if(vehicle_speed<40 && getSignal(ACC_Info::ACC_State)==3 && @sysvar::ACC_SysVar::sysvar_frwd_vehicle_stat==1)
+  {
+    setSignal(ACC_Info::ACC_State,2);
+    setSignal(ACC_Info::ACCDriverInfo,4);
+    msgBeep(1);
+    setSignal(ACC_Info::BrakeDecelRequest,0);
+    setsignal(ACC_Info::TargetSpeed,0);
+  }
+}
+
+on sysvar ACC_SysVar::sysvar_ignstate
+{
+ if(@this==2) // codition true only when ign_on ie value 2
+ {
+   ign_state=@this; // if the condition statisfies value is stored in global variable
+   write("the value of inginition state id %d",ign_state);
+ }
+ else
+  ign_state=@this; // if ign is different state that value will be stored..
+}
+
+on message DiagTx
+{
+  int temp_vspeed;
+  
+  int x=0;
+  x=this.byte(0);
+  if(x<=7)
+  {
+    switch(this.byte(1))
+    {
+      case 0x10: //service id for session control
+        if(getSignal(BCM_Info::VehicleSpeed)==0)
+        {
+          session_res[1]=this.byte(2);
+          CanTpSendData(handle,session_res,elcount(session_res));
+          if(this.byte(2)==0x01)
+            write("session moved to default session");
+            session_res[1]=this.byte(2);
+            CanTpSendData(handle,session_res,elcount(session_res));
+          if(this.byte(2)==0x01)
+            write("session moved to default session");
+          else if(this.byte(2)==0x02)
+            write("session moved to programming session");
+          else if(this.byte(2)==0x03)
+            write("session moved to extended session");
+          else if(this.byte(2)==0x04)
+            write("session moved to safety session");
+        //break;
+        }
+        else if (getSignal(BCM_Info::VehicleSpeed)>0)
+        {
+          Nrc_session[1]=this.byte(1);
+          CanTpSendData(handle,Nrc_session,elcount(Nrc_session));
+          Write("NRC:Condition not correct");
+        }
+        
+        break;
+        
+        case 0x11:
+          if(getSignal(BCM_Info::VehicleSpeed)==0)
+          {
+            Ecu_Reset_positive[1]=this.byte(2);
+            CanTpSendData(handle,Ecu_Reset_positive,elcount(Ecu_Reset_positive));
+          }
+          else if(getSignal(BCM_Info::VehicleSpeed)>0)
+          {
+            Ecu_Reset_NRC[1]=this.byte(1);
+            Ecu_Reset_NRC[2]=0x22;
+            CanTpSendData(handle,Ecu_Reset_NRC,elcount(Ecu_Reset_NRC));
+          }
+          break;
+        
+        case 0x27:
+          
+          if(this.byte(2)==0x01)
+          {
+            x=random(255);
+            y=random(255);
+            server_key_gen(x,y);
+            Security_pos[1]=this.byte(2);
+            Security_pos[2]=x;
+            Security_pos[3]=y;
+            
+            CanTpSendData(handle,Security_pos,elcount(Security_pos));        
+          }
+          else if(this.byte(2)==0x02)
+          {
+            if(server_key_gen[0]==this.byte(3) && server_key_gen[1]==this.byte(4))
+            {
+              Security_pos[1]=this.byte(2);
+              Security_pos[2]=0x00;
+              Security_pos[3]=0x00;
+              CanTpSendData(handle,Security_pos,elcount(Security_pos));
+            }
+            else
+            {
+              Security_access_NRC[1]=this.byte(1);
+              Security_access_NRC[2]=0x35; //Invalid Key Nrc
+              CanTpSendData(handle,Security_access_NRC,elcount(Security_access_NRC));
+            }
+          }
+          
+          break;
+        case 0x3E:
+          if(this.byte(1)==0x3E)
+          {
+            CanTpSendData(handle,tester_present_res,elcount(tester_present_res));
+            session_res[1]=this.byte(2);
+            CanTpSendData(handle,session_res,elcount(session_res));
+          }
+          break;
+        case 0x22:
+          if(this.byte(2)==0x10 && this.byte(3)==0x20 && getSignal(BCM_Info::VehicleSpeed)==0)
+          {
+            Read_data_res[1]=this.byte(2);
+            Read_data_res[2]=this.byte(3);
+           // Read_data_res[3]=$TargetSpeed;
+                temp_vspeed=getProfileInt("ACC_Parameters","Set_Speed",-1,"..\\Data\\Acc_parameter.txt");//it will read and return the value stored in the memory
+                if(temp_vspeed!=-1)
+                {
+                    Read_data_res[3]=temp_vspeed;
+                }
+            CanTpSendData(handle,Read_data_res,elCount(Read_data_res));
+          }
+          else
+          {
+            Read_data_res_NRC[1]=this.byte(1);
+            Read_data_res_NRC[2]=0x22;
+            CanTpSendData(handle,Read_data_res_NRC,elcount(Read_data_res_NRC));
+          }
+          
+          break;
+          
+          case 0x19:
+            {
+              if(this.byte(2)==0x0A)
+              {
+                Read_DTC_res[1] = this.byte(2);
+                CanTpSendData(handle,Read_DTC_res,elcount(Read_DTC_res));
+              }
+            }
+            break;
+    }
+  }
+  
+}
+
+void server_key_gen(byte x,byte y)
+{
+  server_key_gen[0]=x+1;
+  server_key_gen[1]=y+1;
+}
+
+on message 0x501
+{
+  @NM::Acc_Successor=this.byte(0);
+  @NM::Acc_Alive=this.byte(1) & 0x1;
+  @NM::Acc_Ring=(this.byte(1)>>1) & 0x1;  
+  @NM::Acc_Limphome=(this.byte(1)>>2) & 0x1;
+  @NM::Acc_SleepInd=(this.byte(1)>>4) & 0x1;
+  @NM::Acc_SleepAck=(this.byte(1)>>5) & 0x1;
+} 
+
+on sysvar NM::ACC_SleepWakeup
+{
+  if(@this)
+  {
+    GotoMode_BusSleep();
+  }
+  else
+  {
+    GotoMode_Awake();
+  }
+}
+
+on sysvar NM::Acc_Con_Dis
+{
+  if(@this)
+  {
+    SilentNM();
+    ILControlStop();
+  }
+  else
+  {
+    TalkNM();
+    ILControlStart();
+  }
+}
+

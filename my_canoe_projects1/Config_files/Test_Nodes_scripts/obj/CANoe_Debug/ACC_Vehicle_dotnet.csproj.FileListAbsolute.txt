@@ -1,0 +1,13 @@
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehicle_dotnet.csproj.AssemblyReference.cache
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehicle_dotnet.GeneratedMSBuildEditorConfig.editorconfig
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehicle_dotnet.AssemblyInfoInputs.cache
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehicle_dotnet.AssemblyInfo.cs
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehicle_dotnet.csproj.CoreCompileInputs.cache
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehi.D29C6CE2.Up2Date
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehicle_dotnet.dll
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\obj\CANoe_Debug\ACC_Vehicle_dotnet.pdb
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\ACC_Vehicle_dotnet.dll
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\ACC_Vehicle_dotnet.pdb
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\ACC_project_1.cfg_networks.dll
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\ACC_project_1.cfg_sysvars.dll
+S:\my_canoe_projects\Config_files\Test_Nodes_scripts\ACC_Vehicle_Network_V01.dll

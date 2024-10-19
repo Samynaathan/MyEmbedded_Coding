@@ -1,0 +1,73 @@
+﻿/*@!Encoding:65001*/
+///*@!Encoding:65001*/
+//includes
+//{
+  
+//}
+
+variables
+{
+  msTimer t1;
+  int brake_dec_req;
+  int Acc_State;
+}
+on start
+{
+  setTimer(t1,1000);
+  
+  TalkNM();
+}
+on timer t1
+{
+  if(brake_dec_req==1 &&Acc_State==3)
+  {
+    setSignal(BCM_Info::VehicleSpeed,getSignal(BCM_Info::VehicleSpeed)-5);
+  }
+  else if(brake_dec_req==0 && Acc_State==3)
+  {
+     setSignal(BCM_Info::VehicleSpeed,getSignal(BCM_Info::VehicleSpeed)+5);
+  }
+  setTimer(t1,1000);
+}
+on message ACC_Info
+{
+  brake_dec_req=this.BrakeDecelRequest;
+  Acc_State=this.ACC_State;
+}
+
+on message 0x502
+{
+  @NM::BCM_Successor=this.byte(0);
+  @NM::BCM_Alive=this.byte(1) & 0x1;
+  @NM::BCM_Ring=(this.byte(1)>>1) & 0x1;  
+  @NM::BCM_Limphome=(this.byte(1)>>2) & 0x1;
+  @NM::BCM_SleepInd=(this.byte(1)>>4) & 0x1;
+  @NM::BCM_SleepAck=(this.byte(1)>>5) & 0x1;
+} 
+
+on sysvar NM::BCM_SleepWakeup
+{
+  if(@this)
+  {
+    GotoMode_BusSleep();
+  }
+  else
+  {
+    GotoMode_Awake();
+  }
+}
+
+on sysvar NM::BCM_Con_Dis
+{
+  if(@this)
+  {
+    SilentNM();
+    ILControlStop();
+  }
+  else
+  {
+    TalkNM();
+    ILControlStart();
+  }
+}
+

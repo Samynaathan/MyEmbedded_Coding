@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 17
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACC_Vehicle_test_library", "ACC_Vehicle_test_library.csproj", "{77F992AB-409F-4893-AEF6-ECAECA8FE5F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CANoe_Debug|Any CPU = CANoe_Debug|Any CPU
+		CANoe_Release|Any CPU = CANoe_Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F992AB-409F-4893-AEF6-ECAECA8FE5F1}.CANoe_Debug|Any CPU.ActiveCfg = CANoe_Debug|Any CPU
+		{77F992AB-409F-4893-AEF6-ECAECA8FE5F1}.CANoe_Debug|Any CPU.Build.0 = CANoe_Debug|Any CPU
+		{77F992AB-409F-4893-AEF6-ECAECA8FE5F1}.CANoe_Release|Any CPU.ActiveCfg = CANoe_Release|Any CPU
+		{77F992AB-409F-4893-AEF6-ECAECA8FE5F1}.CANoe_Release|Any CPU.Build.0 = CANoe_Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="Network_Management_panel">
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X01eeeb0bed5c4e418fe9fdfec16977d001eb" ControlName="Switch / Indicator 28">
+      <Property Name="Name">X01eeeb0bed5c4e418fe9fdfec16977d001eb</Property>
+      <Property Name="Size">23, 30</Property>
+      <Property Name="Location">531, 146</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_Con_Dis;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\node.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X7785ebbfe66eae4434ea10ee735b7e7f053a" ControlName="Switch / Indicator 27">
+      <Property Name="Name">X7785ebbfe66eae4434ea10ee735b7e7f053a</Property>
+      <Property Name="Size">17, 22</Property>
+      <Property Name="Location">429, 145</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_SleepWakeup;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\Sleep_wakeup.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X41153f19edd98e4c73e9c58eb3d04aa6fce8" ControlName="Switch / Indicator 26">
+      <Property Name="Name">X41153f19edd98e4c73e9c58eb3d04aa6fce8</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">351, 146</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_SleepAck;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X431bc47aeed54e46bde8c15e20e6f1981adf" ControlName="Switch / Indicator 25">
+      <Property Name="Name">X431bc47aeed54e46bde8c15e20e6f1981adf</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">294, 145</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_Limphome;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5bfb4aefeae86e43c3e82f1ec96b102d37f5" ControlName="Switch / Indicator 24">
+      <Property Name="Name">X5bfb4aefeae86e43c3e82f1ec96b102d37f5</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">229, 145</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_SleepInd;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X9636fa94eb95de42dde89cfe36d8bd28ef7c" ControlName="Switch / Indicator 23">
+      <Property Name="Name">X9636fa94eb95de42dde89cfe36d8bd28ef7c</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">189, 145</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_Ring;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xfbaa07e1e4718e42c9eb93ce6b45ce6bc664" ControlName="Switch / Indicator 22">
+      <Property Name="Name">Xfbaa07e1e4718e42c9eb93ce6b45ce6bc664</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">148, 145</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_Alive;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X085000aaeaac7e45b8e8eade57c59e8d3009" ControlName="Input/Output Box 4">
+      <Property Name="Name">X085000aaeaac7e45b8e8eade57c59e8d3009</Property>
+      <Property Name="Size">52, 21</Property>
+      <Property Name="Location">76, 145</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="DescriptionText"></Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="ValueDisplay">Hexadecimal</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">5, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ICM_Successor;1;;;-1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X4f6316f3ea19be4688e89d5e5562f67aebc0" ControlName="Switch / Indicator 21">
+      <Property Name="Name">X4f6316f3ea19be4688e89d5e5562f67aebc0</Property>
+      <Property Name="Size">23, 30</Property>
+      <Property Name="Location">531, 110</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_Con_Dis;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\node.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X024bff58ea052e4774e9865ee2305162f2bd" ControlName="Switch / Indicator 20">
+      <Property Name="Name">X024bff58ea052e4774e9865ee2305162f2bd</Property>
+      <Property Name="Size">17, 22</Property>
+      <Property Name="Location">429, 116</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_SleepWakeup;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\Sleep_wakeup.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X2af49e0fe2dd7e4f02e9b1cef903b86fc614" ControlName="Switch / Indicator 19">
+      <Property Name="Name">X2af49e0fe2dd7e4f02e9b1cef903b86fc614</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">351, 117</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_SleepAck;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X4521281de3ffae46f3eaeeced27e11e1a2c9" ControlName="Switch / Indicator 18">
+      <Property Name="Name">X4521281de3ffae46f3eaeeced27e11e1a2c9</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">294, 117</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_Limphome;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5c548b11e7c4ee4c60ea20be5c1010ff26ca" ControlName="Switch / Indicator 17">
+      <Property Name="Name">X5c548b11e7c4ee4c60ea20be5c1010ff26ca</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">229, 116</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_SleepInd;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X592a1f93e074ae4e97ebf74e56e25c0d9906" ControlName="Switch / Indicator 16">
+      <Property Name="Name">X592a1f93e074ae4e97ebf74e56e25c0d9906</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">189, 117</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_Ring;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X05d2eb9aede38e442bea65fe3f9e16d1b089" ControlName="Switch / Indicator 15">
+      <Property Name="Name">X05d2eb9aede38e442bea65fe3f9e16d1b089</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">148, 117</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_Alive;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xf7fdea77e0a8fe4b17e82a0e50d67a6e612d" ControlName="Input/Output Box 3">
+      <Property Name="Name">Xf7fdea77e0a8fe4b17e82a0e50d67a6e612d</Property>
+      <Property Name="Size">52, 21</Property>
+      <Property Name="Location">76, 117</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="DescriptionText"></Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="ValueDisplay">Hexadecimal</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">5, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ECM_Successor;1;;;-1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X873b3a55e7893e4633e8402e7012d3783270" ControlName="Switch / Indicator 14">
+      <Property Name="Name">X873b3a55e7893e4633e8402e7012d3783270</Property>
+      <Property Name="Size">23, 30</Property>
+      <Property Name="Location">531, 78</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_Con_Dis;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\node.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5ce285d2e6b2ee4ad5ea01be5a0f379739f3" ControlName="Switch / Indicator 13">
+      <Property Name="Name">X5ce285d2e6b2ee4ad5ea01be5a0f379739f3</Property>
+      <Property Name="Size">17, 22</Property>
+      <Property Name="Location">428, 87</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_SleepWakeup;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\Sleep_wakeup.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X626c5155e78bbe4e53e9027ec72b9409efae" ControlName="Switch / Indicator 12">
+      <Property Name="Name">X626c5155e78bbe4e53e9027ec72b9409efae</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">351, 87</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_SleepAck;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X9ffc1604e5bd9e48d5eab49ee906b2d84f86" ControlName="Switch / Indicator 11">
+      <Property Name="Name">X9ffc1604e5bd9e48d5eab49ee906b2d84f86</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">294, 88</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_Limphome;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xda40a25ce9a34e4400eb4e6e51c4e8d2a95b" ControlName="Switch / Indicator 10">
+      <Property Name="Name">Xda40a25ce9a34e4400eb4e6e51c4e8d2a95b</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">229, 87</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_SleepInd;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X75439c72ebb91e44c9eb895e9f0931fd3a1c" ControlName="Switch / Indicator 9">
+      <Property Name="Name">X75439c72ebb91e44c9eb895e9f0931fd3a1c</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">189, 87</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_Ring;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X3b3bed47e6902e45b3ebc5be75b5443b1900" ControlName="Switch / Indicator 8">
+      <Property Name="Name">X3b3bed47e6902e45b3ebc5be75b5443b1900</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">148, 88</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_Alive;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xc7336041e181de48bbe99ccec9924af93716" ControlName="Input/Output Box 2">
+      <Property Name="Name">Xc7336041e181de48bbe99ccec9924af93716</Property>
+      <Property Name="Size">52, 21</Property>
+      <Property Name="Location">76, 88</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="DescriptionText"></Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="ValueDisplay">Hexadecimal</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">5, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;BCM_Successor;1;;;-1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X00a68adeebd91e42f6ebae2e3c30f5e78aee" ControlName="Switch / Indicator 7">
+      <Property Name="Name">X00a68adeebd91e42f6ebae2e3c30f5e78aee</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">351, 60</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;Acc_SleepAck;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X9f9eb39ee9f00e4d77ea869ecc47a8965b69" ControlName="Static Text 13">
+      <Property Name="Name">X9f9eb39ee9f00e4d77ea869ecc47a8965b69</Property>
+      <Property Name="Size">55, 15</Property>
+      <Property Name="Location">340, 26</Property>
+      <Property Name="Text">SleepAck
+</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StartStopControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X888d4cbae5df2e4cbceb7a3eeb8bf3b86787" ControlName="Start Stop Control 1">
+      <Property Name="Name">X888d4cbae5df2e4cbceb7a3eeb8bf3b86787</Property>
+      <Property Name="Size">55, 27</Property>
+      <Property Name="Location">5, 0</Property>
+      <Property Name="TabIndex">0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X0355cb30e1259e4085e9e37e3260e1b0865e" ControlName="Switch / Indicator 6">
+      <Property Name="Name">X0355cb30e1259e4085e9e37e3260e1b0865e</Property>
+      <Property Name="Size">18, 24</Property>
+      <Property Name="Location">428, 51</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;ACC_SleepWakeup;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\Sleep_wakeup.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X9c4ad38ee8acae4952ebf2ee0f51eb748f6c" ControlName="Switch / Indicator 5">
+      <Property Name="Name">X9c4ad38ee8acae4952ebf2ee0f51eb748f6c</Property>
+      <Property Name="Size">23, 30</Property>
+      <Property Name="Location">531, 45</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;Acc_Con_Dis;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\node.bmp</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X779250ddec176e40d5eae01e3217e3c18bfe" ControlName="Switch / Indicator 4">
+      <Property Name="Name">X779250ddec176e40d5eae01e3217e3c18bfe</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">229, 60</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;Acc_SleepInd;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X88e3d763e9a5ce4fbfe9d83eeac6b1b755a4" ControlName="Switch / Indicator 3">
+      <Property Name="Name">X88e3d763e9a5ce4fbfe9d83eeac6b1b755a4</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">294, 60</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;Acc_Limphome;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xf26229abe1773e47c0eb082e74c4bd516d98" ControlName="Switch / Indicator 2">
+      <Property Name="Name">Xf26229abe1773e47c0eb082e74c4bd516d98</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">189, 60</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;Acc_Ring;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xc32e6660ed00ee474fe81a6e3dc31686d7bf" ControlName="Switch / Indicator 1">
+      <Property Name="Name">Xc32e6660ed00ee474fe81a6e3dc31686d7bf</Property>
+      <Property Name="Size">16, 21</Property>
+      <Property Name="Location">148, 60</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;Acc_Alive;1;;;-1;;;Value;;;0</Property>
+      <Property Name="ImageFile">..\..\..\PPT\System_Testing\Materials_Doc\CANoeConfiguration\Panels\bmp\NMLEDRed.bmp</Property>
+      <Property Name="ReadOnlyControl">True</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="Epsilon">0</Property>
+      <Property Name="Increment">1</Property>
+      <Property Name="StartValue">0</Property>
+      <Property Name="SwitchValuesVTXml">&lt;Version&gt;2&lt;/Version&gt;&lt;Count&gt;2&lt;/Count&gt;&lt;RxValue&gt;0&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;0&lt;/TxValue&gt;&lt;RxValue&gt;1&lt;/RxValue&gt;&lt;LowerUpper&gt;Lower&lt;/LowerUpper&gt;&lt;TxValue&gt;1&lt;/TxValue&gt;</Property>
+      <Property Name="SwitchValuesVT">1;2;0/Lower/0;1/Lower/1</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SwitchValuesRx">1;2;0;1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X3f80e738e0171e4629ebbceed8aa1bc6b902" ControlName="Input/Output Box 1">
+      <Property Name="Name">X3f80e738e0171e4629ebbceed8aa1bc6b902</Property>
+      <Property Name="Size">52, 21</Property>
+      <Property Name="Location">76, 60</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;100</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="AlarmLowerTextColor">Black</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmUpperTextColor">Black</Property>
+      <Property Name="BoxBorderStyle">FixedSingle</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="TabIndex">0</Property>
+      <Property Name="DescriptionText"></Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="ValueDisplay">Hexadecimal</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="DescriptionSize">5, 21</Property>
+      <Property Name="SymbolConfiguration">8;16;NM;;;Acc_Successor;1;;;-1;;;Value;;;0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X54c3065ee36d8e4f97eabbaecebf52231bd9" ControlName="Static Text 12">
+      <Property Name="Name">X54c3065ee36d8e4f97eabbaecebf52231bd9</Property>
+      <Property Name="Size">107, 15</Property>
+      <Property Name="Location">487, 26</Property>
+      <Property Name="Text">Connect/Disconnect</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X4b4c344fea0f2e490debf3becd21cae8c441" ControlName="Static Text 11">
+      <Property Name="Name">X4b4c344fea0f2e490debf3becd21cae8c441</Property>
+      <Property Name="Size">80, 15</Property>
+      <Property Name="Location">401, 26</Property>
+      <Property Name="Text">Sleep/Wakeup</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X245a765bed9bce4424eb6d8ed7f978b29fe2" ControlName="Static Text 10">
+      <Property Name="Name">X245a765bed9bce4424eb6d8ed7f978b29fe2</Property>
+      <Property Name="Size">55, 15</Property>
+      <Property Name="Location">217, 26</Property>
+      <Property Name="Text">Sleep Ind</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X894922e7e23eee4e67e918de51fbe786b34f" ControlName="Static Text 9">
+      <Property Name="Name">X894922e7e23eee4e67e918de51fbe786b34f</Property>
+      <Property Name="Size">60, 15</Property>
+      <Property Name="Location">278, 26</Property>
+      <Property Name="Text">Limphome</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X5f865b87e5ce3e4e7ae84e1e41400ecd4dce" ControlName="Static Text 8">
+      <Property Name="Name">X5f865b87e5ce3e4e7ae84e1e41400ecd4dce</Property>
+      <Property Name="Size">32, 15</Property>
+      <Property Name="Location">142, 26</Property>
+      <Property Name="Text">Alive</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xff968c36e577ce4ebce988ee5a4c3ab28099" ControlName="Static Text 7">
+      <Property Name="Name">Xff968c36e577ce4ebce988ee5a4c3ab28099</Property>
+      <Property Name="Size">31, 15</Property>
+      <Property Name="Location">180, 26</Property>
+      <Property Name="Text">Ring</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X46179f3ae509ae4ff6e9bb5ef5ed5b12279a" ControlName="Static Text 6">
+      <Property Name="Name">X46179f3ae509ae4ff6e9bb5ef5ed5b12279a</Property>
+      <Property Name="Size">60, 15</Property>
+      <Property Name="Location">76, 26</Property>
+      <Property Name="Text">Successor</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xaf5c3d08edffbe4c24ebf11e8ad2086ba2a8" ControlName="Static Text 5">
+      <Property Name="Name">Xaf5c3d08edffbe4c24ebf11e8ad2086ba2a8</Property>
+      <Property Name="Size">40, 15</Property>
+      <Property Name="Location">5, 26</Property>
+      <Property Name="Text">Nodes</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X09dab970eeadfe4493e85edec9a7b553b727" ControlName="Static Text 4">
+      <Property Name="Name">X09dab970eeadfe4493e85edec9a7b553b727</Property>
+      <Property Name="Size">60, 15</Property>
+      <Property Name="Location">5, 151</Property>
+      <Property Name="Text">ICM(0x04)</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X905abcd2e7eaee49e1ea708eba3834e818b1" ControlName="Static Text 3">
+      <Property Name="Name">X905abcd2e7eaee49e1ea708eba3834e818b1</Property>
+      <Property Name="Size">64, 15</Property>
+      <Property Name="Location">5, 123</Property>
+      <Property Name="Text">ECM(0x03)</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Xa88f3ba2ebeebe4300eb383e2393e7f3bdcb" ControlName="Static Text 2">
+      <Property Name="Name">Xa88f3ba2ebeebe4300eb383e2393e7f3bdcb</Property>
+      <Property Name="Size">64, 15</Property>
+      <Property Name="Location">5, 94</Property>
+      <Property Name="Text">BCM(0x02)</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="X0fc0c662ef280e486eeb53fe9368eca87622" ControlName="Static Text 1">
+      <Property Name="Name">X0fc0c662ef280e486eeb53fe9368eca87622</Property>
+      <Property Name="Size">63, 15</Property>
+      <Property Name="Location">5, 60</Property>
+      <Property Name="Text">ACC(0x01)</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">595, 185</Property>
+    <Property Name="Location">0, 0</Property>
+    <Property Name="BackColor">255, 255, 255, 255</Property>
+  </Object>
+</Panel>

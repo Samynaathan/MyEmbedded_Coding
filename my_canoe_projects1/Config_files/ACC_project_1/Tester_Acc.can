@@ -1,0 +1,177 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  int handle; 
+  byte session_req[2]={0x10,0x00};
+  byte Ecu_reset[2]={0x11,0x00};
+  byte security[2]={0x27,0x00};
+  byte client_secu_key[2];
+  byte secu_send_key[4]={0x27,0x00,0x00,0x00};
+  byte Tester_Req[2]={0x3E,0x00};
+  
+  msTimer repeat_timer;
+  msTimer duration_timer;
+  byte current_session;
+  
+  byte Read_DID_Req[3]={0x22,0x00,0x00};
+  byte Read_DTC_Req[2]={0x19,0x00};
+}
+
+on start
+{
+   handle = CanTpCreateConnection(0); //0 for normal
+      if( handle <= 0)
+      return; // error
+      CanTpSetRxIdentifier( handle, 0x628); //Rx identifier id
+      CanTpSetTxIdentifier( handle, 0x620); //Tx identifier id
+      CanTpSetSTmin( handle, 0x0214); //Stmin time
+      CanTpSetBlockSize( handle, 0); //block size 
+      CanTpSetOneFlowControlValue( handle, 255); //Flow control
+  
+//    if(count_timer1>5)
+//    {
+//      cancelTimer(Tester_present);
+//    }
+//    if(count_timer2>5)
+//    {
+//      cancelTimer(Tester_present_sr);
+//    }
+}
+
+on sysvar ACC_Diag_sysvar::sys_diag_req
+{
+  if(@this==1)
+  {
+    session_req[1]= @sysvar::ACC_Diag_sysvar::sys_diag_session;
+    CanTpSendData(handle,session_req,elcount(session_req));
+  }
+  else
+  {
+    
+  }
+}
+on sysvar ACC_Diag_sysvar::Ecu_reset_req
+{
+  if(@this==1)
+  {
+    Ecu_reset[1]= @sysvar::ACC_Diag_sysvar::Ecu_reset;
+    CanTpSendData(handle,Ecu_reset,elcount(Ecu_reset));
+  }
+  else
+  {
+    
+  }
+}
+on sysvar ACC_Diag_sysvar::security_req
+{
+  if(@this==1)
+  {
+    if(@ACC_Diag_sysvar::Secuity_Access==1)
+    {
+      security[1]=@ACC_Diag_sysvar::Secuity_Access;
+      CanTpSendData(handle,security,elCount(security));
+    }
+    else if(@ACC_Diag_sysvar::Secuity_Access==2)
+    {
+      secu_send_key[1]=@ACC_Diag_sysvar::Secuity_Access;
+      secu_send_key[2]=@ACC_Diag_sysvar::x_key;
+      secu_send_key[3]=@ACC_Diag_sysvar::y_key;
+      CanTpSendData(handle,secu_send_key,elcount(secu_send_key));
+    }
+  }
+}
+
+on message DiagRx
+{
+ if(this.byte(1)==0x67 && this.byte(2)==0x01) 
+ {
+    @ACC_Diag_sysvar::x_seed=this.byte(3);
+    @ACC_Diag_sysvar::y_seed=this.byte(4);
+    key_gen(@ACC_Diag_sysvar::x_seed,@ACC_Diag_sysvar::y_seed);
+    @ACC_Diag_sysvar::x_key=client_secu_key[0];
+    @ACC_Diag_sysvar::y_key=client_secu_key[1];
+ }
+ else if(this.byte(1)==0x50)
+ {
+   current_session=this.byte(2);
+ }
+}
+void key_gen(byte x,byte y)
+{
+  client_secu_key[0]=x+1;
+  client_secu_key[1]=y+1;
+}
+
+
+on sysvar ACC_Diag_sysvar::Tester_Pr_Req
+{
+ if(@this)
+ {
+   if(@ACC_Diag_sysvar::Tester_Pr_pos==0)
+   {
+     setTimer(repeat_timer,10);
+     
+     setTimer(duration_timer,5000);
+   }
+   else if(@ACC_Diag_sysvar::Tester_Pr_pos==1)
+   {
+     setTimer(repeat_timer,10);
+     
+     setTimer(duration_timer,5000);
+   }
+ }
+  
+}
+on timer repeat_timer
+{
+  if(@ACC_Diag_sysvar::Tester_Pr_pos==0)
+   {
+      Tester_Req[1]=0x00;
+      CanTpSendData(handle,Tester_Req,elcount(Tester_Req));
+      setTimer(repeat_timer,10);
+   }
+   else if(@ACC_Diag_sysvar::Tester_Pr_pos==1)
+   {
+      Tester_Req[1]=0x80;
+      CanTpSendData(handle,Tester_Req,elcount(Tester_Req));
+      setTimer(repeat_timer,10);
+   }
+}
+on timer duration_timer
+{
+  cancelTimer(repeat_timer);
+  session_req[1]= 0x01;
+    CanTpSendData(handle,session_req,elcount(session_req));
+}
+
+on sysvar ACC_Diag_sysvar::Read_DID_Req
+{
+ if(@this)
+ {
+   Read_DID_Req[1]=@ACC_Diag_sysvar::Read_DID1 >> 8;
+   Read_DID_Req[2]=@ACC_Diag_sysvar::Read_DID1 & 0xFF;
+   CanTpSendData(handle,Read_DID_Req,elcount(Read_DID_Req));
+ }
+}
+
+on sysvar ACC_Diag_sysvar::Read_DTC_Req
+{
+ if(@this)
+ {
+   if(@ACC_Diag_sysvar::Report_type_Dtc==2)
+   {
+     Read_DTC_Req[1]=0x0A;
+     CanTpSendData(handle,Read_DTC_Req,elCount(Read_DTC_Req));
+   }
+   if(@ACC_Diag_sysvar::Report_type_Dtc==1)
+   {
+     Read_DTC_Req[1]=0x02;
+     CanTpSendData(handle,Read_DTC_Req,elCount(Read_DTC_Req));
+   }
+ }
+}

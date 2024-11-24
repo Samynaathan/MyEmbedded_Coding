@@ -1,2 +1,0 @@
-[ACC_Parameters]
-Set_Speed=0x3c

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null">
-  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=18.0.150.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="Panel1">
-    <Property Name="Name">Panel</Property>
-    <Property Name="Size">580, 270</Property>
-    <Property Name="Location">0, 0</Property>
-    <Property Name="BackColor">255, 255, 255, 255</Property>
-  </Object>
-</Panel>

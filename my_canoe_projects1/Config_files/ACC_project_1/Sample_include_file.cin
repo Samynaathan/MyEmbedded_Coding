@@ -1,6 +1,0 @@
-﻿/*@!Encoding:65001*/
-
-int add(int x,int y)
-{
-  return x+y;
-}

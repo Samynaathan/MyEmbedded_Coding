@@ -1,0 +1,944 @@
+2025-01-01 18:19:04,689 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'measurement_com_obj'
+2025-01-01 18:26:22,020 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'measurement_com_obj'
+2025-01-01 18:27:26,473 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'measurement_com_obj'
+2025-01-01 18:27:29,232 [CANOE_LOG] [ERROR] 😡 Error stopping measurement: 'CANoe' object has no attribute 'measurement_com_obj'
+2025-01-01 18:27:45,647 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'measurement_com_obj'
+2025-01-01 18:35:03,890 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 18:35:24,327 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 18:35:24,384 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 18:35:35,562 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 18:35:35,563 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'wait_for_canoe_meas_to_start'
+2025-01-01 18:40:36,452 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 18:40:38,040 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 18:40:38,053 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 18:40:47,115 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 18:40:47,117 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 18:40:47,118 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'wait_for_canoe_meas_to_start'
+2025-01-01 18:44:31,360 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 18:44:32,975 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 18:44:32,976 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 18:44:39,823 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 18:44:39,824 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'wait_for_canoe_meas_to_start'
+2025-01-01 18:45:00,417 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 18:45:18,380 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 18:45:18,415 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 18:45:27,886 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 18:45:27,887 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'wait_for_canoe_meas_to_start'
+2025-01-01 18:50:10,094 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 18:50:26,618 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 18:50:26,659 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:20:47,920 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:21:10,799 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:21:10,860 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:21:11,047 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:21:12,556 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:21:12,568 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 20:21:20,223 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 20:21:20,228 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 224
+2025-01-01 20:21:20,736 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 111
+2025-01-01 20:21:21,240 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 41
+2025-01-01 20:21:21,744 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 210
+2025-01-01 20:21:22,247 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 68
+2025-01-01 20:21:22,763 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 103
+2025-01-01 20:21:23,268 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 39
+2025-01-01 20:21:23,772 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 71
+2025-01-01 20:21:24,276 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 109
+2025-01-01 20:21:24,779 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 8
+2025-01-01 20:21:25,286 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 241
+2025-01-01 20:21:25,789 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 60
+2025-01-01 20:21:26,293 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 208
+2025-01-01 20:21:26,809 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 183
+2025-01-01 20:21:27,326 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 119
+2025-01-01 20:21:27,830 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 79
+2025-01-01 20:21:28,342 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 122
+2025-01-01 20:21:28,846 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 55
+2025-01-01 20:21:29,349 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 141
+2025-01-01 20:21:29,852 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 100
+2025-01-01 20:21:30,355 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 178
+2025-01-01 20:21:30,859 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 83
+2025-01-01 20:21:31,363 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 217
+2025-01-01 20:21:31,866 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 105
+2025-01-01 20:21:32,370 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 74
+2025-01-01 20:21:32,876 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 103
+2025-01-01 20:21:33,380 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 243
+2025-01-01 20:21:33,885 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 64
+2025-01-01 20:21:34,388 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 243
+2025-01-01 20:21:34,890 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 151
+2025-01-01 20:21:35,394 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 47
+2025-01-01 20:21:35,897 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 237
+2025-01-01 20:21:36,401 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 233
+2025-01-01 20:21:36,904 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 158
+2025-01-01 20:21:37,407 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 243
+2025-01-01 20:21:37,910 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 5
+2025-01-01 20:21:38,414 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 201
+2025-01-01 20:21:38,916 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 162
+2025-01-01 20:21:39,420 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 98
+2025-01-01 20:21:39,924 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 165
+2025-01-01 20:21:40,427 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 101
+2025-01-01 20:21:40,931 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 191
+2025-01-01 20:21:41,448 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 109
+2025-01-01 20:21:41,951 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 243
+2025-01-01 20:21:42,454 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 71
+2025-01-01 20:21:42,958 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 51
+2025-01-01 20:21:43,461 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 32
+2025-01-01 20:21:43,976 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 241
+2025-01-01 20:21:44,479 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 13
+2025-01-01 20:21:44,983 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 112
+2025-01-01 20:21:45,486 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 85
+2025-01-01 20:21:45,991 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 224
+2025-01-01 20:21:46,495 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 90
+2025-01-01 20:21:46,998 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 59
+2025-01-01 20:21:47,502 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 141
+2025-01-01 20:21:48,005 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 12
+2025-01-01 20:21:48,510 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 50
+2025-01-01 20:21:49,012 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 15
+2025-01-01 20:21:49,520 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 170
+2025-01-01 20:21:50,023 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 103
+2025-01-01 20:21:50,527 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 19
+2025-01-01 20:21:52,375 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1
+2025-01-01 20:21:52,888 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 11
+2025-01-01 20:21:53,394 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 239
+2025-01-01 20:21:53,897 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 74
+2025-01-01 20:21:54,402 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 229
+2025-01-01 20:21:54,907 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 200
+2025-01-01 20:21:55,409 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 188
+2025-01-01 20:21:55,916 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 130
+2025-01-01 20:21:56,420 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 234
+2025-01-01 20:21:56,925 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 131
+2025-01-01 20:21:57,427 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 181
+2025-01-01 20:21:57,931 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 195
+2025-01-01 20:21:58,437 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 221
+2025-01-01 20:21:58,942 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 72
+2025-01-01 20:21:59,445 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 43
+2025-01-01 20:21:59,948 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 46
+2025-01-01 20:22:00,745 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 182
+2025-01-01 20:22:01,249 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 207
+2025-01-01 20:22:01,755 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 158
+2025-01-01 20:22:02,260 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 56
+2025-01-01 20:22:02,762 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 13
+2025-01-01 20:22:03,267 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 249
+2025-01-01 20:22:03,771 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 41
+2025-01-01 20:22:04,274 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 102
+2025-01-01 20:22:04,779 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 110
+2025-01-01 20:22:05,283 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 136
+2025-01-01 20:22:05,787 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 61
+2025-01-01 20:22:06,290 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 18
+2025-01-01 20:22:06,795 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 100
+2025-01-01 20:22:07,300 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 125
+2025-01-01 20:22:07,803 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 36
+2025-01-01 20:22:08,310 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 95
+2025-01-01 20:22:08,817 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 87
+2025-01-01 20:22:09,321 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 181
+2025-01-01 20:22:09,831 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 168
+2025-01-01 20:22:10,335 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 88
+2025-01-01 20:22:10,838 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 23
+2025-01-01 20:22:11,342 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 6
+2025-01-01 20:22:11,846 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 224
+2025-01-01 20:22:12,500 [CANOE_LOG] [DEBUG] ⏳ wait for application to quit
+2025-01-01 20:22:14,525 [CANOE_LOG] [DEBUG] 📢 CANoe Application Closed
+2025-01-01 20:24:03,705 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:24:20,680 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:24:20,720 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:27:09,132 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:27:10,720 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:27:10,732 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:27:22,159 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 20:27:22,159 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'wait_for_canoe_meas_to_start'
+2025-01-01 20:27:36,937 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:27:54,673 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:27:54,713 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:27:58,151 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 20:27:58,151 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'wait_for_canoe_meas_to_start'
+2025-01-01 20:29:54,348 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:30:10,307 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:30:10,346 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:30:20,274 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 20:30:20,275 [CANOE_LOG] [ERROR] 😡 Error starting measurement: 'CANoe' object has no attribute 'wait_for_canoe_meas_to_start'
+2025-01-01 20:32:02,543 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:32:18,421 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:32:18,478 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:32:18,481 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:32:19,987 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:32:20,006 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 20:32:26,566 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 20:32:36,012 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 20:32:37,536 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 20:32:37,542 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 214
+2025-01-01 20:32:38,046 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 114
+2025-01-01 20:32:38,550 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 41
+2025-01-01 20:32:39,054 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 143
+2025-01-01 20:32:39,557 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 114
+2025-01-01 20:32:40,061 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 182
+2025-01-01 20:32:40,565 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 210
+2025-01-01 20:32:41,070 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 246
+2025-01-01 20:32:41,574 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 26
+2025-01-01 20:32:42,079 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 187
+2025-01-01 20:32:42,583 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 12
+2025-01-01 20:32:43,087 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 139
+2025-01-01 20:32:43,592 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 102
+2025-01-01 20:32:44,096 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 137
+2025-01-01 20:32:44,613 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 17
+2025-01-01 20:32:45,119 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 207
+2025-01-01 20:32:45,633 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 167
+2025-01-01 20:32:46,138 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 179
+2025-01-01 20:32:46,645 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 66
+2025-01-01 20:32:47,150 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 98
+2025-01-01 20:32:47,654 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 39
+2025-01-01 20:32:48,158 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 129
+2025-01-01 20:32:48,662 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 143
+2025-01-01 20:32:49,166 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 183
+2025-01-01 20:32:49,670 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 99
+2025-01-01 20:32:50,180 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 146
+2025-01-01 20:32:50,687 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 185
+2025-01-01 20:32:51,191 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 167
+2025-01-01 20:32:51,695 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 87
+2025-01-01 20:32:52,201 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 62
+2025-01-01 20:32:52,705 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 197
+2025-01-01 20:32:53,210 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 128
+2025-01-01 20:32:53,715 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 238
+2025-01-01 20:32:54,220 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 4
+2025-01-01 20:32:54,723 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 211
+2025-01-01 20:32:55,227 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 157
+2025-01-01 20:32:55,730 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 241
+2025-01-01 20:32:56,235 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 23
+2025-01-01 20:32:56,742 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 76
+2025-01-01 20:32:57,251 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 169
+2025-01-01 20:32:57,755 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 200
+2025-01-01 20:32:58,259 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 83
+2025-01-01 20:32:58,769 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 97
+2025-01-01 20:32:59,275 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 195
+2025-01-01 20:32:59,793 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 40
+2025-01-01 20:33:00,298 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 174
+2025-01-01 20:33:01,131 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 96
+2025-01-01 20:33:01,640 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 28
+2025-01-01 20:33:02,144 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 60
+2025-01-01 20:33:02,647 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 108
+2025-01-01 20:33:03,151 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 220
+2025-01-01 20:33:03,655 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 33
+2025-01-01 20:33:04,159 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 116
+2025-01-01 20:33:04,671 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 25
+2025-01-01 20:33:05,174 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 75
+2025-01-01 20:33:05,678 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 181
+2025-01-01 20:33:06,187 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 18
+2025-01-01 20:33:06,690 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 7
+2025-01-01 20:33:07,194 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 215
+2025-01-01 20:33:07,699 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 53
+2025-01-01 20:33:08,204 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 131
+2025-01-01 20:33:08,708 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 112
+2025-01-01 20:33:09,211 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 30
+2025-01-01 20:33:09,731 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 180
+2025-01-01 20:33:10,243 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 167
+2025-01-01 20:33:10,749 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 20:33:11,252 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 189
+2025-01-01 20:33:11,756 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 30
+2025-01-01 20:33:12,259 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 14
+2025-01-01 20:33:12,764 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 133
+2025-01-01 20:33:13,269 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 50
+2025-01-01 20:33:13,773 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 129
+2025-01-01 20:33:14,276 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 25
+2025-01-01 20:33:14,780 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 181
+2025-01-01 20:33:15,283 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 84
+2025-01-01 20:33:15,787 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 210
+2025-01-01 20:33:16,291 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 41
+2025-01-01 20:33:16,795 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 10
+2025-01-01 20:33:17,298 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 45
+2025-01-01 20:33:17,802 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 248
+2025-01-01 20:33:18,306 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 76
+2025-01-01 20:33:18,815 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 224
+2025-01-01 20:34:26,965 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:34:43,018 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:34:43,057 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:34:43,058 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:34:44,566 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:34:44,572 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 20:34:50,809 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 20:34:56,163 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 20:34:57,474 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 20:34:57,479 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 229
+2025-01-01 20:34:57,982 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 68
+2025-01-01 20:34:58,500 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 246
+2025-01-01 20:34:59,005 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 66
+2025-01-01 20:34:59,510 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 114
+2025-01-01 20:35:00,014 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 218
+2025-01-01 20:35:00,520 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 126
+2025-01-01 20:35:01,024 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 237
+2025-01-01 20:35:01,528 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 214
+2025-01-01 20:35:02,033 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 167
+2025-01-01 20:35:02,538 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 162
+2025-01-01 20:35:03,043 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 235
+2025-01-01 20:35:03,548 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 115
+2025-01-01 20:35:04,052 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 64
+2025-01-01 20:35:04,556 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 140
+2025-01-01 20:35:05,061 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 138
+2025-01-01 20:35:05,567 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 140
+2025-01-01 20:35:06,071 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 45
+2025-01-01 20:35:06,575 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 105
+2025-01-01 20:35:07,080 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 138
+2025-01-01 20:35:07,585 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 101
+2025-01-01 20:35:08,090 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 185
+2025-01-01 20:35:08,594 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 247
+2025-01-01 20:35:09,097 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 54
+2025-01-01 20:35:09,602 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 96
+2025-01-01 20:35:10,107 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 151
+2025-01-01 20:35:10,612 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 149
+2025-01-01 20:35:11,116 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 212
+2025-01-01 20:35:11,621 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 144
+2025-01-01 20:35:12,125 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 212
+2025-01-01 20:35:12,630 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 64
+2025-01-01 20:35:13,134 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 245
+2025-01-01 20:35:13,639 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 173
+2025-01-01 20:35:14,145 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 113
+2025-01-01 20:35:14,649 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 36
+2025-01-01 20:35:15,152 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 193
+2025-01-01 20:35:15,657 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 214
+2025-01-01 20:35:16,161 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 178
+2025-01-01 20:35:16,665 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 11
+2025-01-01 20:35:17,170 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 217
+2025-01-01 20:35:17,674 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 215
+2025-01-01 20:35:18,180 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 8
+2025-01-01 20:35:18,685 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 241
+2025-01-01 20:35:19,189 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 52
+2025-01-01 20:35:19,693 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 116
+2025-01-01 20:35:20,196 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 185
+2025-01-01 20:35:20,701 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 25
+2025-01-01 20:35:21,206 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 194
+2025-01-01 20:35:21,709 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 220
+2025-01-01 20:35:22,213 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 20:35:22,717 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 171
+2025-01-01 20:35:23,221 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 101
+2025-01-01 20:35:23,726 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 238
+2025-01-01 20:35:24,239 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 154
+2025-01-01 20:35:24,743 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 63
+2025-01-01 20:35:25,246 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 91
+2025-01-01 20:35:25,750 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 41
+2025-01-01 20:35:26,255 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 106
+2025-01-01 20:35:26,762 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 208
+2025-01-01 20:35:27,282 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 48
+2025-01-01 20:35:27,787 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 80
+2025-01-01 20:35:28,292 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 48
+2025-01-01 20:35:28,812 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 123
+2025-01-01 20:35:29,316 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 129
+2025-01-01 20:35:29,819 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 66
+2025-01-01 20:35:30,323 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 82
+2025-01-01 20:35:30,827 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 107
+2025-01-01 20:35:31,331 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 210
+2025-01-01 20:35:38,970 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 20:35:39,543 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-01 20:38:44,870 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:39:00,922 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:39:00,968 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 20:39:00,968 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 20:39:02,478 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 20:39:02,483 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 20:39:08,778 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 20:39:16,492 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 20:39:17,799 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 20:39:17,804 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 144
+2025-01-01 20:39:18,310 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 217
+2025-01-01 20:39:18,822 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 171
+2025-01-01 20:39:19,325 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 151
+2025-01-01 20:39:19,837 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 27
+2025-01-01 20:39:20,360 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 211
+2025-01-01 20:39:20,870 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 133
+2025-01-01 20:39:21,374 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 126
+2025-01-01 20:39:21,878 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 65
+2025-01-01 20:39:22,205 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 20:39:22,607 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-01 22:08:07,410 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:08:25,638 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:08:25,682 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 22:08:25,683 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:08:27,189 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:08:27,198 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 22:08:33,910 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 22:08:42,083 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 22:08:43,595 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 22:08:43,603 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 189
+2025-01-01 22:08:44,112 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 42
+2025-01-01 22:08:44,624 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 149
+2025-01-01 22:08:45,138 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 50
+2025-01-01 22:08:45,650 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 237
+2025-01-01 22:08:46,163 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 187
+2025-01-01 22:08:46,677 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 81
+2025-01-01 22:08:47,193 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 20
+2025-01-01 22:08:47,708 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 230
+2025-01-01 22:08:48,213 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 126
+2025-01-01 22:08:48,725 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 66
+2025-01-01 22:08:49,229 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 81
+2025-01-01 22:08:49,734 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 90
+2025-01-01 22:08:50,248 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 188
+2025-01-01 22:08:50,765 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 76
+2025-01-01 22:08:50,956 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 22:08:51,460 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-01 22:34:53,412 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:35:11,561 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:35:11,609 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 22:35:11,610 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:35:13,118 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:35:13,124 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 22:35:19,936 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 22:37:01,632 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:37:18,027 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:37:18,076 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 22:37:18,077 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:37:19,586 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:37:19,591 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 22:37:25,686 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 22:38:05,839 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:38:22,072 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:38:22,110 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 22:38:22,111 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 22:38:23,627 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 22:38:23,639 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 22:38:29,637 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 22:38:40,572 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 22:38:41,881 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 22:38:41,887 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 204
+2025-01-01 22:38:42,405 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 27
+2025-01-01 22:38:42,922 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 84
+2025-01-01 22:38:43,431 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 196
+2025-01-01 22:38:43,948 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 168
+2025-01-01 22:38:44,463 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 224
+2025-01-01 22:38:44,978 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 221
+2025-01-01 22:38:45,485 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 120
+2025-01-01 22:38:46,000 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 180
+2025-01-01 22:38:46,532 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 129
+2025-01-01 22:38:47,036 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 236
+2025-01-01 22:38:47,543 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 31
+2025-01-01 22:38:48,057 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 35
+2025-01-01 22:38:48,576 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 137
+2025-01-01 22:38:49,082 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 187
+2025-01-01 22:38:49,588 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 143
+2025-01-01 22:38:50,095 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 172
+2025-01-01 22:38:50,612 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 162
+2025-01-01 22:38:51,117 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 8
+2025-01-01 22:38:51,620 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 94
+2025-01-01 22:38:52,139 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 99
+2025-01-01 22:38:52,643 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 177
+2025-01-01 22:38:53,148 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 216
+2025-01-01 22:38:53,662 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 175
+2025-01-01 22:38:54,167 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 78
+2025-01-01 22:38:54,681 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 41
+2025-01-01 22:38:55,210 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 20
+2025-01-01 22:38:55,714 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 172
+2025-01-01 22:38:56,230 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 7
+2025-01-01 22:38:56,737 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 39
+2025-01-01 22:38:57,256 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 97
+2025-01-01 22:38:57,774 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 81
+2025-01-01 22:38:58,291 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 133
+2025-01-01 22:38:58,804 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 81
+2025-01-01 22:38:59,311 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 168
+2025-01-01 22:38:59,814 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 50
+2025-01-01 22:38:59,868 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 22:39:00,673 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-01 22:54:16,788 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 22:54:17,595 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 22:54:17,599 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 40
+2025-01-01 22:54:18,125 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 142
+2025-01-01 22:54:18,645 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 11
+2025-01-01 22:54:19,172 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 174
+2025-01-01 22:54:19,679 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 46
+2025-01-01 22:54:20,185 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 189
+2025-01-01 22:54:20,688 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 173
+2025-01-01 22:54:21,192 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 70
+2025-01-01 22:54:21,709 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 59
+2025-01-01 22:54:22,226 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 136
+2025-01-01 22:54:22,730 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 78
+2025-01-01 22:54:23,241 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 56
+2025-01-01 22:54:23,757 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 102
+2025-01-01 22:54:24,262 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 95
+2025-01-01 22:54:24,781 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 24
+2025-01-01 22:54:25,296 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 126
+2025-01-01 22:54:25,804 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 196
+2025-01-01 22:54:26,307 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 237
+2025-01-01 22:54:26,810 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 227
+2025-01-01 22:54:27,325 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 33
+2025-01-01 22:54:27,837 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 130
+2025-01-01 22:54:28,354 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 160
+2025-01-01 22:54:28,857 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 48
+2025-01-01 22:54:29,374 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 20
+2025-01-01 22:54:29,890 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 141
+2025-01-01 22:54:30,392 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 166
+2025-01-01 22:54:30,907 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 34
+2025-01-01 22:54:31,424 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 203
+2025-01-01 22:54:31,936 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 20
+2025-01-01 22:54:32,443 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 203
+2025-01-01 22:54:32,972 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 49
+2025-01-01 22:54:33,519 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 91
+2025-01-01 22:54:34,027 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 168
+2025-01-01 22:54:34,539 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 44
+2025-01-01 22:54:35,058 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 157
+2025-01-01 22:54:35,569 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 93
+2025-01-01 22:54:36,082 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 171
+2025-01-01 22:54:36,596 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 183
+2025-01-01 22:54:37,115 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 8
+2025-01-01 22:54:37,630 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 120
+2025-01-01 22:54:38,146 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 181
+2025-01-01 22:54:38,655 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 240
+2025-01-01 22:54:39,159 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 4
+2025-01-01 22:54:39,687 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 113
+2025-01-01 22:54:39,832 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 22:54:40,537 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-01 23:04:09,057 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 23:30:29,552 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 23:30:31,150 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 23:30:31,164 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 23:30:31,164 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 23:30:32,682 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 23:30:32,697 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 23:30:39,226 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 23:32:11,513 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 23:32:28,518 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 23:32:28,568 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-01 23:32:28,569 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-01 23:32:30,080 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-01 23:32:30,088 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-01 23:32:36,732 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-01 23:32:44,811 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 23:32:46,421 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 23:32:46,431 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:32:46,942 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:32:47,452 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:32:47,971 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 123
+2025-01-01 23:32:48,483 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 213
+2025-01-01 23:32:48,998 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 381
+2025-01-01 23:32:49,531 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 493
+2025-01-01 23:32:50,036 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:32:50,562 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 739
+2025-01-01 23:32:51,075 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 840
+2025-01-01 23:32:51,586 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 918
+2025-01-01 23:32:52,102 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:52,615 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:53,123 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:53,636 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:54,148 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:54,679 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:55,188 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:55,699 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:56,212 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:56,725 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:57,239 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:57,753 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:58,466 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:58,978 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:59,483 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:32:59,988 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:00,505 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:01,013 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:01,601 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:02,108 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:02,618 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:03,127 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:03,635 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:04,153 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:04,660 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:05,173 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:05,708 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:06,212 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:06,724 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 963
+2025-01-01 23:33:07,231 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1019
+2025-01-01 23:33:07,755 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1209
+2025-01-01 23:33:08,260 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1343
+2025-01-01 23:33:08,771 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1534
+2025-01-01 23:33:09,282 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1657
+2025-01-01 23:33:09,794 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1881
+2025-01-01 23:33:10,304 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2049
+2025-01-01 23:33:10,813 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2172
+2025-01-01 23:33:11,326 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2194
+2025-01-01 23:33:11,835 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 985
+2025-01-01 23:33:12,364 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 101
+2025-01-01 23:33:12,874 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 694
+2025-01-01 23:33:13,392 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1231
+2025-01-01 23:33:13,906 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1231
+2025-01-01 23:33:14,420 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1231
+2025-01-01 23:33:14,945 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1332
+2025-01-01 23:33:15,449 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:15,959 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1522
+2025-01-01 23:33:16,471 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1634
+2025-01-01 23:33:16,982 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1701
+2025-01-01 23:33:17,495 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1970
+2025-01-01 23:33:18,003 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1903
+2025-01-01 23:33:18,517 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1903
+2025-01-01 23:33:19,027 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1299
+2025-01-01 23:33:19,540 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:20,068 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:20,583 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:21,092 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:21,597 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:22,108 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:22,618 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:23,129 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:23,639 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:24,154 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:24,678 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:25,193 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:25,697 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:26,206 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 974
+2025-01-01 23:33:26,711 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 403
+2025-01-01 23:33:27,230 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 56
+2025-01-01 23:33:27,737 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 627
+2025-01-01 23:33:28,242 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:33:28,746 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 358
+2025-01-01 23:33:29,259 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:33:29,773 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:33:30,054 [CANOE_LOG] [WARNING] ⚠️ CANoe Measurement already running 🏃‍♂️‍➡️
+2025-01-01 23:33:30,059 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:33:30,288 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:33:30,564 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:33:30,796 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:33:31,074 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:33:31,303 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 470
+2025-01-01 23:33:31,578 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 884
+2025-01-01 23:33:31,808 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1433
+2025-01-01 23:33:32,082 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2172
+2025-01-01 23:33:32,312 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2440
+2025-01-01 23:33:32,590 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2541
+2025-01-01 23:33:32,816 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1825
+2025-01-01 23:33:33,095 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:33:33,320 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 549
+2025-01-01 23:33:33,600 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 549
+2025-01-01 23:33:33,825 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 549
+2025-01-01 23:33:34,105 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 549
+2025-01-01 23:33:34,167 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 23:33:34,571 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-01 23:33:36,179 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 23:33:36,998 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 23:33:37,006 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 549
+2025-01-01 23:33:37,514 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 549
+2025-01-01 23:33:38,024 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 828
+2025-01-01 23:33:38,528 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1243
+2025-01-01 23:33:39,040 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:39,547 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1634
+2025-01-01 23:33:40,057 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1858
+2025-01-01 23:33:40,569 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2071
+2025-01-01 23:33:41,086 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2183
+2025-01-01 23:33:41,592 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2284
+2025-01-01 23:33:42,102 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2340
+2025-01-01 23:33:42,618 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2340
+2025-01-01 23:33:43,135 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1948
+2025-01-01 23:33:43,671 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1690
+2025-01-01 23:33:44,174 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1377
+2025-01-01 23:33:44,690 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1142
+2025-01-01 23:33:45,201 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1007
+2025-01-01 23:33:45,712 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 795
+2025-01-01 23:33:46,222 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 526
+2025-01-01 23:33:46,737 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 526
+2025-01-01 23:33:47,246 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 526
+2025-01-01 23:33:47,753 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 526
+2025-01-01 23:33:48,258 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 526
+2025-01-01 23:33:48,769 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 683
+2025-01-01 23:33:49,273 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 716
+2025-01-01 23:33:49,792 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 918
+2025-01-01 23:33:50,299 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1041
+2025-01-01 23:33:50,803 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1175
+2025-01-01 23:33:51,307 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:51,835 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:52,350 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:52,861 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:53,375 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:53,887 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1478
+2025-01-01 23:33:54,396 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1769
+2025-01-01 23:33:54,908 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2015
+2025-01-01 23:33:55,419 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2104
+2025-01-01 23:33:55,925 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2205
+2025-01-01 23:33:56,439 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2295
+2025-01-01 23:33:56,961 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2743
+2025-01-01 23:33:57,474 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2765
+2025-01-01 23:33:57,976 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2597
+2025-01-01 23:33:58,484 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2306
+2025-01-01 23:33:58,990 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1970
+2025-01-01 23:33:59,506 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1646
+2025-01-01 23:34:00,013 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 795
+2025-01-01 23:34:00,516 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 582
+2025-01-01 23:34:01,032 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 504
+2025-01-01 23:34:01,546 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 504
+2025-01-01 23:34:02,059 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 504
+2025-01-01 23:34:02,565 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 504
+2025-01-01 23:34:03,089 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 504
+2025-01-01 23:34:03,593 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 504
+2025-01-01 23:34:04,104 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:04,710 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:05,226 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:05,743 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:06,259 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:06,784 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:07,294 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:07,801 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 649
+2025-01-01 23:34:08,312 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 705
+2025-01-01 23:34:08,818 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1097
+2025-01-01 23:34:09,322 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1690
+2025-01-01 23:34:09,831 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2250
+2025-01-01 23:34:10,335 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1612
+2025-01-01 23:34:10,839 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 806
+2025-01-01 23:34:11,342 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 806
+2025-01-01 23:34:11,855 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 806
+2025-01-01 23:34:12,374 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 806
+2025-01-01 23:34:12,891 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 806
+2025-01-01 23:34:13,417 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 806
+2025-01-01 23:34:13,566 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 23:34:14,171 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-01 23:35:55,578 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-01 23:35:56,385 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-01 23:35:56,389 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1354
+2025-01-01 23:35:56,896 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1354
+2025-01-01 23:35:57,401 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 851
+2025-01-01 23:35:57,920 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 549
+2025-01-01 23:35:58,445 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 448
+2025-01-01 23:35:58,950 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 616
+2025-01-01 23:35:59,464 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1164
+2025-01-01 23:35:59,970 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1399
+2025-01-01 23:36:00,473 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1802
+2025-01-01 23:36:00,977 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2093
+2025-01-01 23:36:01,489 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2127
+2025-01-01 23:36:02,002 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2127
+2025-01-01 23:36:02,515 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2127
+2025-01-01 23:36:03,032 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2127
+2025-01-01 23:36:03,539 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2351
+2025-01-01 23:36:04,044 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2575
+2025-01-01 23:36:04,558 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2664
+2025-01-01 23:36:05,064 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 2127
+2025-01-01 23:36:05,571 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1769
+2025-01-01 23:36:06,080 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1511
+2025-01-01 23:36:06,592 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1366
+2025-01-01 23:36:07,098 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1063
+2025-01-01 23:36:07,600 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 358
+2025-01-01 23:36:08,105 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 246
+2025-01-01 23:36:08,611 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:36:09,120 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:36:09,633 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:36:10,149 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-01 23:36:10,658 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 582
+2025-01-01 23:36:11,161 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1097
+2025-01-01 23:36:11,673 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:36:12,188 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:36:12,705 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:36:13,218 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:36:13,729 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:36:14,248 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:36:14,753 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 3000
+2025-01-01 23:36:15,260 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1903
+2025-01-01 23:36:15,770 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1410
+2025-01-01 23:36:16,280 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1410
+2025-01-01 23:36:16,784 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1410
+2025-01-01 23:36:17,288 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1410
+2025-01-01 23:36:17,792 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 1410
+2025-01-01 23:36:18,000 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-01 23:36:18,863 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 11:34:02,405 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 11:34:28,257 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 11:34:28,328 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-02 11:34:28,329 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 11:34:29,839 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 11:34:29,847 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-02 11:34:38,638 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-02 11:34:48,776 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 11:34:50,792 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 11:34:50,799 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 67
+2025-01-02 11:34:51,303 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 181
+2025-01-02 11:34:51,809 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 138
+2025-01-02 11:34:52,324 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 173
+2025-01-02 11:34:52,833 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 144
+2025-01-02 11:34:53,348 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 18
+2025-01-02 11:34:53,864 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 48
+2025-01-02 11:34:54,371 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 210
+2025-01-02 11:34:54,889 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 90
+2025-01-02 11:34:55,399 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 243
+2025-01-02 11:34:55,912 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 59
+2025-01-02 11:34:56,419 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 188
+2025-01-02 11:34:56,940 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 109
+2025-01-02 11:34:57,446 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 237
+2025-01-02 11:34:58,093 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 180
+2025-01-02 11:34:58,608 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 31
+2025-01-02 11:34:59,118 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 233
+2025-01-02 11:34:59,639 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 121
+2025-01-02 11:35:00,161 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 250
+2025-01-02 11:35:00,668 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 219
+2025-01-02 11:35:01,183 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 224
+2025-01-02 11:35:01,692 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 96
+2025-01-02 11:35:02,206 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 80
+2025-01-02 11:35:02,716 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 200
+2025-01-02 11:35:03,178 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 11:35:03,682 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 11:35:13,574 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 11:35:14,282 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 11:35:14,285 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 231
+2025-01-02 11:35:14,797 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 43
+2025-01-02 11:35:15,300 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 137
+2025-01-02 11:35:15,803 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 172
+2025-01-02 11:35:16,346 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 77
+2025-01-02 11:35:16,860 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 115
+2025-01-02 11:35:17,395 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 13
+2025-01-02 11:35:17,903 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 166
+2025-01-02 11:35:18,406 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 227
+2025-01-02 11:35:18,914 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 227
+2025-01-02 11:35:19,141 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 11:35:19,444 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 11:35:30,936 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 11:35:31,643 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 11:35:31,648 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 108
+2025-01-02 11:35:32,161 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 160
+2025-01-02 11:35:32,675 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 23
+2025-01-02 11:35:33,186 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 112
+2025-01-02 11:35:33,698 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 171
+2025-01-02 11:35:34,211 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 28
+2025-01-02 11:35:34,722 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 40
+2025-01-02 11:35:35,233 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 250
+2025-01-02 11:35:35,736 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 5
+2025-01-02 11:35:36,240 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 21
+2025-01-02 11:35:36,748 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 173
+2025-01-02 11:35:37,016 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 11:35:37,477 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 11:38:32,716 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 11:39:32,584 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 11:39:32,588 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-02 11:39:32,588 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 11:39:34,096 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 11:39:34,122 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-02 11:39:48,234 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-02 11:39:59,891 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 11:40:02,244 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 11:40:02,272 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 172
+2025-01-02 11:40:02,785 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 51
+2025-01-02 11:40:03,297 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 11
+2025-01-02 11:40:03,809 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 79
+2025-01-02 11:40:04,317 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 175
+2025-01-02 11:40:04,831 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 184
+2025-01-02 11:40:05,341 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 168
+2025-01-02 11:40:05,850 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 182
+2025-01-02 11:40:06,357 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 241
+2025-01-02 11:40:06,863 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 52
+2025-01-02 11:40:07,381 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 10
+2025-01-02 11:40:07,891 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 142
+2025-01-02 11:40:08,402 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 29
+2025-01-02 11:40:08,922 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 112
+2025-01-02 11:40:09,439 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 140
+2025-01-02 11:40:09,975 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 4
+2025-01-02 11:40:10,487 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 137
+2025-01-02 11:40:11,002 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 83
+2025-01-02 11:40:11,513 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 54
+2025-01-02 11:40:12,019 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 171
+2025-01-02 11:40:12,525 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 213
+2025-01-02 11:40:13,037 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 145
+2025-01-02 11:40:13,554 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 62
+2025-01-02 11:40:14,064 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 146
+2025-01-02 11:40:14,579 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 71
+2025-01-02 11:40:15,097 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 171
+2025-01-02 11:40:15,619 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 230
+2025-01-02 11:40:16,135 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 25
+2025-01-02 11:40:16,645 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 219
+2025-01-02 11:40:17,157 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 41
+2025-01-02 11:40:17,679 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 227
+2025-01-02 11:40:18,182 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 61
+2025-01-02 11:40:18,698 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 79
+2025-01-02 11:40:19,206 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 0
+2025-01-02 11:40:19,715 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 240
+2025-01-02 11:40:20,227 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 209
+2025-01-02 11:40:20,740 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 85
+2025-01-02 11:40:21,254 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 206
+2025-01-02 11:40:21,768 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 35
+2025-01-02 11:40:22,280 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 37
+2025-01-02 11:40:22,787 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 151
+2025-01-02 11:40:23,303 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 148
+2025-01-02 11:40:23,820 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 116
+2025-01-02 11:40:24,335 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 74
+2025-01-02 11:40:24,846 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 132
+2025-01-02 11:40:25,361 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 242
+2025-01-02 11:40:25,874 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 142
+2025-01-02 11:40:26,386 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 90
+2025-01-02 11:40:26,896 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 148
+2025-01-02 11:40:27,421 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 200
+2025-01-02 11:40:27,924 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 147
+2025-01-02 11:40:28,328 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 11:40:28,732 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 11:41:46,493 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 11:42:07,402 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 11:42:07,458 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-02 11:42:07,459 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 11:42:08,973 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 11:42:08,982 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-02 11:42:17,261 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-02 11:42:25,430 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 11:42:27,142 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 11:42:27,152 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 199
+2025-01-02 11:42:27,661 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 59
+2025-01-02 11:42:28,172 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 207
+2025-01-02 11:42:28,684 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 133
+2025-01-02 11:42:29,193 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 132
+2025-01-02 11:42:29,702 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 209
+2025-01-02 11:42:30,208 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 202
+2025-01-02 11:42:30,717 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 12
+2025-01-02 11:42:31,233 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 14
+2025-01-02 11:42:31,746 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 214
+2025-01-02 11:42:32,252 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 130
+2025-01-02 11:42:32,775 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 234
+2025-01-02 11:42:33,288 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 205
+2025-01-02 11:42:33,819 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 51
+2025-01-02 11:42:34,336 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 126
+2025-01-02 11:42:34,848 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 130
+2025-01-02 11:42:35,363 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 124
+2025-01-02 11:42:35,876 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 123
+2025-01-02 11:42:36,389 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 152
+2025-01-02 11:42:36,898 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 70
+2025-01-02 11:42:37,410 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 187
+2025-01-02 11:42:37,915 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 180
+2025-01-02 11:42:38,428 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 191
+2025-01-02 11:42:38,945 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 76
+2025-01-02 11:42:39,473 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 174
+2025-01-02 11:42:39,591 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 11:42:40,297 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 11:42:47,673 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 11:42:48,480 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 11:42:48,486 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 6
+2025-01-02 11:42:48,998 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 204
+2025-01-02 11:42:49,514 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 6
+2025-01-02 11:42:50,022 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 105
+2025-01-02 11:42:50,535 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 4
+2025-01-02 11:42:51,048 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 117
+2025-01-02 11:42:51,554 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 76
+2025-01-02 11:42:52,068 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 52
+2025-01-02 11:42:52,073 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 11:42:52,577 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 11:42:54,002 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 11:42:54,708 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 11:42:54,713 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 163
+2025-01-02 11:42:55,230 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 115
+2025-01-02 11:42:55,741 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 60
+2025-01-02 11:42:56,254 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 153
+2025-01-02 11:42:56,692 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 11:42:57,297 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 12:09:24,327 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 12:09:43,973 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 12:09:44,014 [CANOE_LOG] [DEBUG] CANoe Measurement COM object initialized successfully.
+2025-01-02 12:09:44,014 [CANOE_LOG] [DEBUG] ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+2025-01-02 12:09:45,522 [CANOE_LOG] [DEBUG] CANoe application initialized successfully.
+2025-01-02 12:09:45,542 [CANOE_LOG] [DEBUG] ⏳ wait for application to open
+2025-01-02 12:09:51,848 [CANOE_LOG] [DEBUG] 📢 CANoe configuration successfully opened 🎉
+2025-01-02 12:09:59,994 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 12:10:01,504 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 12:10:01,512 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 6
+2025-01-02 12:10:02,019 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 63
+2025-01-02 12:10:02,524 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 10
+2025-01-02 12:10:03,035 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 57
+2025-01-02 12:10:03,548 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 82
+2025-01-02 12:10:04,056 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 220
+2025-01-02 12:10:04,566 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 128
+2025-01-02 12:10:05,074 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 191
+2025-01-02 12:10:05,585 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 135
+2025-01-02 12:10:06,098 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 173
+2025-01-02 12:10:06,603 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 70
+2025-01-02 12:10:07,083 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 12:10:07,889 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
+2025-01-02 12:10:15,370 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to start
+2025-01-02 12:10:16,078 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Started 🏃‍♂️‍➡️
+2025-01-02 12:10:16,080 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 234
+2025-01-02 12:10:16,596 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 57
+2025-01-02 12:10:17,107 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 207
+2025-01-02 12:10:17,625 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 83
+2025-01-02 12:10:18,142 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 38
+2025-01-02 12:10:18,655 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 170
+2025-01-02 12:10:19,165 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 15
+2025-01-02 12:10:19,677 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 54
+2025-01-02 12:10:20,192 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 102
+2025-01-02 12:10:20,703 [CANOE_LOG] [DEBUG] 👉 signal(CAN1.Engine_info.Engine_speed) value set to 140
+2025-01-02 12:10:21,050 [CANOE_LOG] [DEBUG] ⏳ waiting for measurement to stop 🧍‍♂️
+2025-01-02 12:10:21,253 [CANOE_LOG] [DEBUG] 👉 CANoe Measurement Stopped 🧍‍♂️
